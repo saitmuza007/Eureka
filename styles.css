@@ -1,0 +1,16 @@
+#heading1
+{
+    text-align: center;
+    color: red;
+    font-size: 100px;
+    font-family: 'Kanit', sans-serif;
+    background-color: black;
+}
+#sp1
+{
+    color: blue;
+}
+
+#sp2{
+    color: teal;
+}

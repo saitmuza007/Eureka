@@ -1,0 +1,48 @@
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+td{
+    width: 25%;
+}
+/* img{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+/* #mandi
+{
+    width: 500px;
+    
+} */
+/* #lop
+{
+    background-color: blue;
+} */
+
+#q1
+{
+  
+    width: 200px;
+    height: 100px;
+}
+#q2
+
+{
+    width: 200px;
+    background-color: crimson;
+    height: 100px;
+}
+
+div{
+    background-color: orange
+}
+.pol
+{
+    background: brown;
+}
+#uio
+{
+    background-color: red;
+}
