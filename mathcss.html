@@ -1,0 +1,68 @@
+<html>
+    <head></head>
+    <title>Math in css</title>
+    <style>
+        #div1
+        {
+            position:absolute;
+            padding: 5px;
+            left: 50px;
+            width: min(100%-100px);
+            border: 1px solid yellow;
+            background-color: orange;
+            
+        }
+
+        #myid
+        {
+            background-color: blue;
+        }
+        .myclass
+        {
+            background-color: gray;
+        }
+        p{
+            background-color: chocolate !important;
+        }
+        body{
+            counter-reset: section;
+        }
+        h2::before{
+            counter-increment: section;
+            content: counter(section);
+        }
+        input{
+            padding: 25px;
+            width: 50%;
+        }
+
+    </style>
+    <body>
+        <h1>Ansh is a good boy .</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non ducimus ad quam necessitatibus magni quo veniam a ipsam, et labore ex iusto neque perferendis aperiam eos saepe repudiandae molestias.</p>
+        <div id="div1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam unde, quisquam animi incidunt corporis hic, magni voluptate expedita necessitatibus assumenda nobis, illo maxime nesciunt atque ipsam esse dolores qui ullam!</p>
+        </div>
+<br>
+<br></br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nemo ab, saepe illum omnis culpa inventore, a sunt accusantium placeat nostrum! Est ipsam debitis doloribus aliquid neque. Assumenda, iure ex!</p>
+        <p class="myclass">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates neque dolor optio magni earum reprehenderit veritatis, inventore eius totam nemo nisi ut harum quaerat nesciunt? Laborum commodi facere quis ducimus!</p>
+        <p id="myid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, inventore ipsam culpa possimus itaque modi eius optio impedit minima tempora blanditiis voluptas eaque dolor sit iure provident illum voluptatibus labore.</p>
+        <h2>ANSH</h2>
+        <h2>Mangoes</h2>
+        <h2>Javascript</h2>
+        <h2>SQL Tutorial</h2>
+
+        <form>
+            <input type="text" placeholder="Enter your name beta">
+            <br>
+            <br>
+            <input type="email" placeholder="Enter your Email">
+            <br>
+            <br>
+            <input type="password" placeholder="Enter your Email">
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
